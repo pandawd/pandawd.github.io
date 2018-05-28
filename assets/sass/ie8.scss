@@ -1,34 +1,25 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Overflow by HTML5 UP
+	Striped by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
-
-	body {
-		background-image: url('../../images/bg.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: auto;
-		background-attachment: scroll;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+	form {
+		input[type="text"],
+		input[type="email"],
+		input[type="password"],
+		select,
+		textarea {
+			position: relative;
+			box-shadow: none !important;
+			-ms-behavior: url('assets/js/ie/PIE.htc');
+		}
 	}
-
-/* Section/Article */
-
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
-/* Button */
 
 	input[type="button"],
 	input[type="submit"],
@@ -36,35 +27,71 @@
 	button,
 	.button {
 		position: relative;
+		box-shadow: none !important;
 		-ms-behavior: url('assets/js/ie/PIE.htc');
+	}
 
-		&.style2 {
-			&:hover {
-				color: #35b88f !important;
+	.pagination {
+		.pages {
+			a {
+				position: relative;
+				box-shadow: none !important;
+				-ms-behavior: url('assets/js/ie/PIE.htc');
 			}
-		}
-
-		&.style3 {
-			background: #fefefe;
-			border: solid 1px #dad9d9;
 		}
 	}
 
-/* Footer */
+	.box {
+		&.calendar {
+			td {
+				a, span {
+					position: relative;
+					box-shadow: none !important;
+					-ms-behavior: url('assets/js/ie/PIE.htc');
+				}
+			}
+		}
 
-	#footer {
-		.icons {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
+		&.text-style1 {
+			.inner {
+				position: relative;
+				box-shadow: none !important;
+				-ms-behavior: url('assets/js/ie/PIE.htc');
+			}
 		}
 	}
 
-/* Header */
-
-	#header {
-		header {
-			p {
-				border-top: solid 1px #888;
+	#nav {
+		li {
+			a {
+				position: relative;
+				box-shadow: none !important;
+				-ms-behavior: url('assets/js/ie/PIE.htc');
 			}
 		}
+	}
+
+	.box {
+		&.post {
+			.info {
+				box-shadow: none !important;
+				-ms-behavior: url('assets/js/ie/PIE.htc');
+
+				.stats {
+					li {
+						a {
+							position: relative;
+							box-shadow: none !important;
+							-ms-behavior: url('assets/js/ie/PIE.htc');
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#logo {
+		position: relative;
+		box-shadow: none !important;
+		-ms-behavior: url('assets/js/ie/PIE.htc');
 	}

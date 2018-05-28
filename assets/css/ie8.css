@@ -1,66 +1,64 @@
 /*
-	Overflow by HTML5 UP
+	Striped by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");}
 
-	body {
-		background-image: url("../../images/bg.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: auto;
-		background-attachment: scroll;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-	}
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");}
 
-/* Section/Article */
+.pagination .pages a {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");
+}
 
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
+.box.calendar td a, .box.calendar td span {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");
+}
 
-/* Button */
+.box.text-style1 .inner {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");
+}
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
+#nav li a {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");
+}
+
+.box.post .info {
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");
+}
+
+	.box.post .info .stats li a {
 		position: relative;
+		box-shadow: none !important;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		input[type="button"].style2:hover,
-		input[type="submit"].style2:hover,
-		input[type="reset"].style2:hover,
-		button.style2:hover,
-		.button.style2:hover {
-			color: #35b88f !important;
-		}
-
-		input[type="button"].style3,
-		input[type="submit"].style3,
-		input[type="reset"].style3,
-		button.style3,
-		.button.style3 {
-			background: #fefefe;
-			border: solid 1px #dad9d9;
-		}
-
-/* Footer */
-
-	#footer .icons {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-/* Header */
-
-	#header header p {
-		border-top: solid 1px #888;
-	}
+#logo {
+	position: relative;
+	box-shadow: none !important;
+	-ms-behavior: url("assets/js/ie/PIE.htc");
+}
